@@ -50,7 +50,7 @@ export default {
           "4": "hsl(var(--chart-4))",
           "5": "hsl(var(--chart-5))",
         },
-        main: "#329D36",
+        main: "#F75608",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -58,8 +58,8 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        heading: '"Shippori Antique"',
-        body: '"Poppins"',
+        body: '"Shippori Antique"',
+        head: '"Orbitron"',
       },
     },
   },

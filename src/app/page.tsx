@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen flex flex-col items-center justify-center gap-3">
+    <div className="w-screen h-screen flex flex-col items-center justify-center gap-3 bg-background text-foreground">
       <Navbar />
       <div className="w-screen h-screen overflow-y-scroll scroll-snap-container snap-mandatory">
         <Hero />

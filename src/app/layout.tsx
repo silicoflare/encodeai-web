@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import SessionHandler from "@/components/SessionHandler";
 
 export const metadata: Metadata = {
-  title: "AURA - Adapting to the Future",
-  description: "Official website of AURA",
+  title: "EncodeAI",
+  description: "Official website of EncodeAI PESU",
 };
 
 export default function RootLayout({
@@ -12,8 +13,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className="font-heading antialiased">{children}</body>
+    <html lang="en" className="dark">
+      <body className="font-body antialiased">
+        <SessionHandler>{children}</SessionHandler>
+      </body>
     </html>
   );
 }
