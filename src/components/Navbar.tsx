@@ -123,7 +123,7 @@ function MobileNav() {
       </DropdownMenuContent>
     </DropdownMenu>
   ) : (
-    <Link href="/login" className="cursor-pointer uppercase">
+    <Link href="/login" className="cursor-pointer uppercase block md:hidden">
       Login
     </Link>
   );

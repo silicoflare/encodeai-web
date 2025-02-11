@@ -64,7 +64,7 @@ function SignUp() {
 
   return (
     <div
-      className="w-screen h-screen grid grid-rows-3 md:grid-cols-3 snap-start"
+      className="w-screen h-screen grid grid-rows-3 grid-cols-1 md:grid-cols-3 md:grid-rows-1 snap-start"
       data-text="white"
     >
       <Navbar />
